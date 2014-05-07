@@ -9,7 +9,7 @@ using System.Threading;
 using System.Windows.Forms;
 using System.Media;
 using System.Timers;
-
+/*Programmers: Powell & Sean*/
 namespace Pacman
 {
     public partial class Main : Form

@@ -136,3 +136,5 @@ D:\phamner\Pacman\Pacman\obj\x86\Debug\Pacman.Splash.resources
 D:\phamner\Pacman\Pacman\obj\x86\Debug\Pacman.csproj.GenerateResource.Cache
 D:\phamner\Pacman\Pacman\obj\x86\Debug\Pacman.exe.manifest
 D:\phamner\Pacman\Pacman\obj\x86\Debug\Pacman.application
+D:\smcdermott\Desktop\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.exe
+D:\smcdermott\Desktop\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.pdb

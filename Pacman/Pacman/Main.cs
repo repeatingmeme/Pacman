@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 using System.Media;
+using System.Timers;
 
 namespace Pacman
 {
@@ -21,6 +22,8 @@ namespace Pacman
         int lives = 3;
         int started = 0;
         int level = 1;
+        int time = 10;
+        bool Blue = false;
         Random rndAngle;
         Splash splash;
         Walls walls;
@@ -199,11 +202,58 @@ namespace Pacman
                 yellowGhost.Angle = rndAngle.Next(1, 5);
                 wallDetect(yellowGhost.Angle, yellowGhost.X, yellowGhost.Y, ref yellowGhost.Wall);
             }
+            
+            if (Blue != true)
+            {
+                redGhost.Sprites = Image.FromFile("../../images/ghostRed.png");
+                greenGhost.Sprites = Image.FromFile("../../images/ghostGreen.png");
+                yellowGhost.Sprites = Image.FromFile("../../images/ghostYellow.png");
 
-            moveSprite(redGhost.Angle, ref redGhost.X, ref redGhost.Y);
-            moveSprite(greenGhost.Angle, ref greenGhost.X, ref greenGhost.Y);
-            moveSprite(yellowGhost.Angle, ref yellowGhost.X, ref yellowGhost.Y);
-
+                moveSprite(redGhost.Angle, ref redGhost.X, ref redGhost.Y);
+                moveSprite(greenGhost.Angle, ref greenGhost.X, ref greenGhost.Y);
+                moveSprite(yellowGhost.Angle, ref yellowGhost.X, ref yellowGhost.Y);
+            }
+            else {
+                time -= 1;
+                switch (time) { 
+                    case 2:
+                        redGhost.Sprites = Image.FromFile("../../images/ghostBlue.png");
+                greenGhost.Sprites = Image.FromFile("../../images/ghostBlue.png");
+                yellowGhost.Sprites = Image.FromFile("../../images/ghostBlue.png");
+                break;
+                    case 4:
+                        redGhost.Sprites = Image.FromFile("../../images/ghostBlue.png");
+                greenGhost.Sprites = Image.FromFile("../../images/ghostBlue.png");
+                yellowGhost.Sprites = Image.FromFile("../../images/ghostBlue.png");
+                break;
+                    case 6:
+                        redGhost.Sprites = Image.FromFile("../../images/ghostBlue.png");
+                greenGhost.Sprites = Image.FromFile("../../images/ghostBlue.png");
+                yellowGhost.Sprites = Image.FromFile("../../images/ghostBlue.png");
+                break;
+                    case 8:
+                        redGhost.Sprites = Image.FromFile("../../images/ghostBlue.png");
+                greenGhost.Sprites = Image.FromFile("../../images/ghostBlue.png");
+                yellowGhost.Sprites = Image.FromFile("../../images/ghostBlue.png");
+                break;
+                    case 10:
+                        redGhost.Sprites = Image.FromFile("../../images/ghostBlue.png");
+                greenGhost.Sprites = Image.FromFile("../../images/ghostBlue.png");
+                yellowGhost.Sprites = Image.FromFile("../../images/ghostBlue.png");
+                break;
+                    default:
+                        redGhost.Sprites = Image.FromFile("../../images/ghostWhite.png");
+                greenGhost.Sprites = Image.FromFile("../../images/ghostWhite.png");
+                yellowGhost.Sprites = Image.FromFile("../../images/ghostWhite.png");
+                break;
+                        
+                }
+                
+                if (time == 0) {
+                    Blue = false;
+                    time = 10;
+                }
+            }
             eraseSteps(greenGhost.PrevX, greenGhost.PrevY);
             eraseSteps(redGhost.PrevX, redGhost.PrevY);
             eraseSteps(yellowGhost.PrevX, yellowGhost.PrevY);
@@ -218,6 +268,7 @@ namespace Pacman
         {
             switch (angle)
             {
+
                 case 1: //Left 
                     x -= 1;
                     break;
@@ -334,7 +385,7 @@ namespace Pacman
             { }
         }
 
-        private void scoreCount() // Addition and replace the value in the grid (score)
+               private void scoreCount() // Addition and replace the value in the grid (score)
         {
 
             try
@@ -357,6 +408,8 @@ namespace Pacman
                     lblScore.Text = Convert.ToString(score);
                     walls.Grid[pacman.Y, pacman.X] = 2;
                     sp.Play();
+                   // blueGhosts();
+                    Blue = true;
                 }
             }
             catch (IndexOutOfRangeException ex)
@@ -500,9 +553,12 @@ namespace Pacman
                     break;
 
                 case 2:
-                case 3:
                     color = new SolidBrush(Color.Black);
                     paper.FillRectangle(color, z, q, blokSize, blokSize);
+                    break;
+                case 3:
+                    Image powerdot = Image.FromFile("../../images/PowerDot.jpg");
+                    paper.DrawImage(powerdot, z, q, blokSize, blokSize);
                     break;
                 default:
                     break;
@@ -576,5 +632,9 @@ namespace Pacman
                 }
             }
         }
+
+
+
+
     }
 }

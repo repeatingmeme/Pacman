@@ -122,3 +122,17 @@ D:\phamner\Pacman\Pacman\Documents\Visual Studio 2013\Projects\Pacman\Pacman\obj
 D:\phamner\Pacman\Pacman\Documents\Visual Studio 2013\Projects\Pacman\Pacman\obj\x86\Debug\Pacman.csproj.GenerateResource.Cache
 D:\phamner\Pacman\Pacman\Documents\Visual Studio 2013\Projects\Pacman\Pacman\obj\x86\Debug\Pacman.exe.manifest
 D:\phamner\Pacman\Pacman\Documents\Visual Studio 2013\Projects\Pacman\Pacman\obj\x86\Debug\Pacman.application
+D:\phamner\Pacman\Pacman\obj\x86\Debug\Pacman.exe
+D:\phamner\Pacman\Pacman\obj\x86\Debug\Pacman.pdb
+D:\phamner\Pacman\Pacman\bin\Debug\Pacman.exe.manifest
+D:\phamner\Pacman\Pacman\bin\Debug\Pacman.application
+D:\phamner\Pacman\Pacman\bin\Debug\Pacman.exe
+D:\phamner\Pacman\Pacman\bin\Debug\Pacman.pdb
+D:\phamner\Pacman\Pacman\obj\x86\Debug\Pacman.csprojResolveAssemblyReference.cache
+D:\phamner\Pacman\Pacman\obj\x86\Debug\Pacman.Help.resources
+D:\phamner\Pacman\Pacman\obj\x86\Debug\Pacman.Main.resources
+D:\phamner\Pacman\Pacman\obj\x86\Debug\Pacman.Properties.Resources.resources
+D:\phamner\Pacman\Pacman\obj\x86\Debug\Pacman.Splash.resources
+D:\phamner\Pacman\Pacman\obj\x86\Debug\Pacman.csproj.GenerateResource.Cache
+D:\phamner\Pacman\Pacman\obj\x86\Debug\Pacman.exe.manifest
+D:\phamner\Pacman\Pacman\obj\x86\Debug\Pacman.application

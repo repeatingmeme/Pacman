@@ -8,14 +8,22 @@
     <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
+<<<<<<< HEAD
+    <dependentAssembly dependencyType="install" codebase="Pacman.exe.manifest" size="4549">
+=======
     <dependentAssembly dependencyType="install" codebase="Pacman.exe.manifest" size="6096">
+>>>>>>> 11da5633d6eae652c2ec6a966a0a1de822fedd10
       <assemblyIdentity name="Pacman.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+<<<<<<< HEAD
+        <dsig:DigestValue>FhCrxhpx1xYk8z+LUwcPTgr8n24=</dsig:DigestValue>
+=======
         <dsig:DigestValue>82mFjMd5ZaTIdS3B4Aw/QuzaM+I=</dsig:DigestValue>
+>>>>>>> 11da5633d6eae652c2ec6a966a0a1de822fedd10
       </hash>
     </dependentAssembly>
   </dependency>

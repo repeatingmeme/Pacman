@@ -82,7 +82,11 @@
     <Compile Include="Help.Designer.cs">
       <DependentUpon>Help.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+    <Compile Include="Muren.cs" />
+=======
     <Compile Include="Walls.cs" />
+>>>>>>> 11da5633d6eae652c2ec6a966a0a1de822fedd10
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>

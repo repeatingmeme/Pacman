@@ -94,6 +94,8 @@ D:\phamner\Documents\Visual Studio 2013\Projects\Pacman\Pacman\obj\x86\Debug\Pac
 D:\phamner\Documents\Visual Studio 2013\Projects\Pacman\Pacman\obj\x86\Debug\Pacman.csproj.GenerateResource.Cache
 D:\phamner\Documents\Visual Studio 2013\Projects\Pacman\Pacman\obj\x86\Debug\Pacman.exe.manifest
 D:\phamner\Documents\Visual Studio 2013\Projects\Pacman\Pacman\obj\x86\Debug\Pacman.application
+<<<<<<< HEAD
+=======
 D:\phamner\Documents\Visual Studio 2013\Projects\Pacman\Documents\Visual Studio 2013\Projects\Pacman\Pacman\obj\x86\Debug\Pacman.exe
 D:\phamner\Documents\Visual Studio 2013\Projects\Pacman\Documents\Visual Studio 2013\Projects\Pacman\Pacman\obj\x86\Debug\Pacman.pdb
 D:\phamner\Documents\Visual Studio 2013\Projects\Pacman\Documents\Visual Studio 2013\Projects\Pacman\Pacman\bin\Debug\Pacman.exe.manifest
@@ -108,3 +110,4 @@ D:\phamner\Documents\Visual Studio 2013\Projects\Pacman\Documents\Visual Studio 
 D:\phamner\Documents\Visual Studio 2013\Projects\Pacman\Documents\Visual Studio 2013\Projects\Pacman\Pacman\obj\x86\Debug\Pacman.csproj.GenerateResource.Cache
 D:\phamner\Documents\Visual Studio 2013\Projects\Pacman\Documents\Visual Studio 2013\Projects\Pacman\Pacman\obj\x86\Debug\Pacman.exe.manifest
 D:\phamner\Documents\Visual Studio 2013\Projects\Pacman\Documents\Visual Studio 2013\Projects\Pacman\Pacman\obj\x86\Debug\Pacman.application
+>>>>>>> 11da5633d6eae652c2ec6a966a0a1de822fedd10

@@ -42,14 +42,22 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+<<<<<<< HEAD
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Pacman.exe" size="852992">
+=======
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Pacman.exe" size="853504">
+>>>>>>> 11da5633d6eae652c2ec6a966a0a1de822fedd10
       <assemblyIdentity name="Pacman" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+<<<<<<< HEAD
+        <dsig:DigestValue>hgn/LsmwicVaZ0Zk+n7ariKv+lA=</dsig:DigestValue>
+=======
         <dsig:DigestValue>SeOs2WWi1ef7+EzQbtRTm3bLGi8=</dsig:DigestValue>
+>>>>>>> 11da5633d6eae652c2ec6a966a0a1de822fedd10
       </hash>
     </dependentAssembly>
   </dependency>
@@ -71,6 +79,8 @@
       <dsig:DigestValue>m71Isli/oazwUQY1tw6ad8nLym0=</dsig:DigestValue>
     </hash>
   </file>
+<<<<<<< HEAD
+=======
   <file name="Sounds\pacman_beginning.wav" size="46592">
     <hash>
       <dsig:Transforms>
@@ -80,6 +90,7 @@
       <dsig:DigestValue>DfKmnn21r5FP6GSUnnVgj7L4zmQ=</dsig:DigestValue>
     </hash>
   </file>
+>>>>>>> 11da5633d6eae652c2ec6a966a0a1de822fedd10
   <file name="Sounds\pacman_chomp.wav" size="15892">
     <hash>
       <dsig:Transforms>
@@ -98,6 +109,8 @@
       <dsig:DigestValue>Mw7hI5TmW0JS3Dc6fv3J63oyniI=</dsig:DigestValue>
     </hash>
   </file>
+<<<<<<< HEAD
+=======
   <file name="Sounds\pacman_eatfruit.wav" size="5120">
     <hash>
       <dsig:Transforms>
@@ -125,4 +138,5 @@
       <dsig:DigestValue>oo6iTMpBT9K0ZdbzqMOGHW3hBWw=</dsig:DigestValue>
     </hash>
   </file>
+>>>>>>> 11da5633d6eae652c2ec6a966a0a1de822fedd10
 </asmv1:assembly>
